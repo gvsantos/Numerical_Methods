@@ -22,4 +22,6 @@ This algorithm is created to estimate the value of a root for a given function u
 * ea - the approximate percent relative error 
 * iter - the number of iterations performed in order to arrive at root guess 
 
+This algorithm includes error checks for: if there are an appropriate number of input values and if the upper and lower guesses at the root bracket a root.
+
 As pointed out by my professor, this algorithm has two errors of not stopping at the es value or at the maxiter value. 
